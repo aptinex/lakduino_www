@@ -5,7 +5,7 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oxygen' type='text/css' />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" /><meta http-equiv="content-language" content="en" />
-<meta name="description" content="Lakduino UNO R4 which is compatible with the popular Arduino Uno. In addition to all the features of the previous version, the Lakduino UNO R4 now comes with a PL2303 USB-to-Serial driver chip on board so that you don’t have to get busy with external connections for uploading your sketches." />
+<meta name="description" content="Lakduino UNO R4 which is compatible with the popular Arduino Uno. In addition to all the features of the previous version, the Lakduino UNO R4 now comes with a PL2303 USB-to-Serial driver chip on board so that you donï¿½t have to get busy with external connections for uploading your sketches." />
 <meta name="keywords" content="Arduino UNO, Cheap Arduino UNO, Low Price Arduino UNO, Less expensive Arduino UNO, Best price Arduino UNO, Lakduino UNO" />
 <style>
 	.wrapper{
@@ -126,6 +126,35 @@ var mygallery=new fadeSlideShow({
 <body>
 <div class="wrapper">
 
+<div class="std" style="margin-bottom: 15px;">
+	<h3 style="text-align:center; font-style:italic; color: #0061a7;">Lakduino is a brand handles by Aptinex (Pvt) Ltd. Redirecting you to local distribution store www.etusker.com</h3>
+	<h2 style="text-align:center; font-style:italic; color: red; margin-top: -10px;">
+		After <span id="countdown">30</span> seconds
+	</h2>
+</div>
+	
+<script type="text/javascript">
+		
+	// Total seconds to wait
+	var seconds = 30;
+	
+	function countdown() {
+		seconds = seconds - 1;
+		if (seconds < 0) {
+			// Chnage your redirection link here
+			window.location = "https://etusker.com/product-category/development-boards-kits-programmers/lakduino/";
+		} else {
+			// Update remaining seconds
+			document.getElementById("countdown").innerHTML = seconds;
+			// Count down using javascript
+			window.setTimeout("countdown()", 1000);
+		}
+	}
+	
+	// Run countdown function
+	countdown();
+	
+</script>
 
 
 <div style="width:100%">
